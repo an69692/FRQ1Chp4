@@ -27,13 +27,13 @@ public class Main
         
         if(!previousLetter.equals(currentLetter)){
             currentCount = 1;
-            System.out.println(previousLetter + " is not " + currentLetter + ", currentCount reset to 1");
+            System.out.println(previousLetter + " is not " + currentLetter + ", currentCount reset to 1"); // Test code
         }
         
         if(currentCount > highestNumber){
             mostLetter = str.substring(i, i+1);
             highestNumber = currentCount;
-            System.out.println(mostLetter + " is the current most character, there are " + highestNumber + " of it");
+            System.out.println(mostLetter + " is the current most character, there are " + highestNumber + " of it"); // Test code
         }
 
         previousLetter = str.substring(i, i+1);
